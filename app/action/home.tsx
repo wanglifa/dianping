@@ -1,0 +1,1 @@
+export const SET_CITYNAME = 'home/SET_CITYNAME'
