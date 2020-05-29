@@ -1,17 +1,29 @@
 import * as React from 'react'
+import './style.scss'
+import {useContext, useEffect} from 'react';
+import Context, {ContextProp} from '../../context';
 const HomeHeader: React.FC = () => {
+  const {state} = useContext<ContextProp>(Context)
+  useEffect(() => {
+    setTimeout(() => {
+      console.log(state.cityName)
+    }, 3000)
+  }, [])
   return (
-    <div className={"clear-fix"}>
-      <div className="float-left">
-        深圳
+    <div className={"clear-fix"} id={"home-header"}>
+      <div className="float-left home-header-left">
+        <span>{state.cityName}</span>
+        &nbsp;
         <i className={"icon-angle-down"}></i>
       </div>
-      <div className="float-right">
+      <div className="float-right home-header-right">
         <i className="icon-user"></i>
       </div>
-      <div>
-        <i className="icon-search"></i>
-        <input/>
+      <div className={"home-header-middle"}>
+        <div className="search-container">
+          <i className="icon-search"></i>
+          <input type="text" placeholder={"请输入关键字"}/>
+        </div>
       </div>
     </div>
   )

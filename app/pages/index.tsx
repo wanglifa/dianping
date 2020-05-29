@@ -13,11 +13,9 @@ interface Prop {
 const App: React.FC<Prop> = (props) => {
   const [state, dispatch] = useReducer<Reducer>(reducer, store)
   const [initDone, setInitDone] = useState<boolean>(false)
-  const [cityName, setCityName] = useState<string>('')
   useEffect(() => {
     const intermediary = LocalStore.getItem(CITYNAME) ? LocalStore.getItem(CITYNAME) : '北京'
-    setCityName(intermediary as string)
-    dispatch({type: SET_CITYNAME, cityName})
+    dispatch({type: SET_CITYNAME, cityName: intermediary as string})
     setTimeout(() => {
       setInitDone(true)
     }, 3000)
