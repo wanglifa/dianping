@@ -1,10 +1,10 @@
 import * as React from 'react'
 import './style.scss'
-interface Prop {
-  data: Obj[];
+export interface ArrayObjProp {
+  data: ObjProp[];
 }
-type Obj = {[k: string]: any}
-const HomeAd: React.FC<Prop> = (props) => {
+export type ObjProp = {[k: string]: any}
+const HomeAd: React.FC<ArrayObjProp> = (props) => {
   const {data} = props
   return (
     <div id={"homeAdd"}>

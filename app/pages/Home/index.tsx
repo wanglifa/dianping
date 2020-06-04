@@ -4,6 +4,7 @@ import {useEffect} from 'react';
 import HomeHeader from '../../components/HomeHeader/'
 import Category from '../../components/Category';
 import Ad from './subpage/Ad';
+import List from './subpage/List';
 
 const Home: React.FC = () => {
   // const {state, dispatch} = useContext<ContextProp>(Context)
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
       <HomeHeader/>
       <Category/>
       <Ad/>
+      <List/>
     </div>
   )
 }
