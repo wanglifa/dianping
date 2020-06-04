@@ -6,7 +6,10 @@ import {useEffect} from 'react';
 const Category: React.FC = () => {
   useEffect(() => {
     new Swiper('.swiper-container', {
-      loop: true
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      }
     })
   }, [])
   return(
@@ -56,6 +59,7 @@ const Category: React.FC = () => {
             </ul>
           </div>
         </div>
+        <div className="swiper-pagination"></div>
       </div>
     </div>
   )
