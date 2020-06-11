@@ -14,7 +14,10 @@ body {
 input {
   outline:none;
 }
-
+a {
+  outline: none;
+  text-decoration: none;
+}
 .float-left {
   float: left;
 }

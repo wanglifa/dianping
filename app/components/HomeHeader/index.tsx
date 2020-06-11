@@ -2,6 +2,7 @@ import * as React from 'react'
 import './style.scss'
 import {useContext, useEffect} from 'react';
 import Context, {ContextProp} from '../../context';
+import { Link } from 'react-router-dom'
 const HomeHeader: React.FC = () => {
   const {state} = useContext<ContextProp>(Context)
   useEffect(() => {
@@ -12,7 +13,9 @@ const HomeHeader: React.FC = () => {
   return (
     <div className={"clear-fix"} id={"home-header"}>
       <div className="float-left home-header-left">
-        <span>{state.cityName}</span>
+        <Link to={"/city"}>
+          <span>{state.cityName}</span>
+        </Link>
         &nbsp;
         <i className={"icon-angle-down"}></i>
       </div>

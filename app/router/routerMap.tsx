@@ -3,11 +3,13 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import List from '../pages/List';
 import Detail from '../pages/Detail';
+import City from '../pages/City'
 
 const RouterMap: React.FC = () => {
   return (
     <Router basename={"/"}>
       <Route path={"/"} component={Home} exact/>
+      <Route path={"/city"} component={City} exact/>
       <Route path={"/list"} component={List} exact/>
       <Route path={"/detail/:id"} component={Detail} exact/>
     </Router>

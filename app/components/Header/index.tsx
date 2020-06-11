@@ -1,8 +1,18 @@
 import * as React from 'react'
-const Header: React.FC = () => {
+import './style.scss'
+interface Prop {
+  title: string;
+}
+const Header: React.FC<Prop> = (props) => {
+  const onClickReturn = () => {
+    window.history.back()
+  }
   return (
-    <div>
-      headaer
+    <div id={"common-header"}>
+      <span onClick={onClickReturn} className={"back-icon"}>
+        <i className="icon-chevron-left"></i>
+      </span>
+      <h1>{props.title}</h1>
     </div>
   )
 }
