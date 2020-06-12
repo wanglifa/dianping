@@ -5,17 +5,18 @@ import CurrentCity from '../../components/CurrentCity';
 import CityList from '../../components/CityList';
 import { SET_CITYNAME } from '../../action/home'
 import {useContext} from 'react';
-interface Prop {
-  history: History & { push: (str: string) => void};
+export interface HistoryProp {
+  history?: History & { push: (str: string) => void};
 }
-const City: React.FC<Prop> = (props) => {
+const City: React.FC<HistoryProp> = (props) => {
   const {dispatch} = useContext<ContextProp>(Context)
   const changeFn = (city: string) => {
     if (city == null) {
       return
     }
     dispatch({ type: SET_CITYNAME, cityName: city })
-    props.history.push('/')
+    console.log(props.history, 'aaahi')
+    props.history!.push('/')
   }
   return (
     <div>

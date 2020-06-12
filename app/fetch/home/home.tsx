@@ -5,7 +5,7 @@ export function getAdData() {
     return result
 }
 
-export function getListData(city: string, page: string | number) {
+export function getListData(city: string, page: string | number, category?: string, keyword?: string) {
     const result = get('/api/homelist/' + encodeURIComponent(city) + '/' + page)
     return result
 }
