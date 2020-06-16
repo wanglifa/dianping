@@ -5,11 +5,13 @@ interface Prop {
 interface Match {
   params: { id: string | number }
 }
+import Header from '../../components/Header'
+import Info from './subpage/info';
 const Detail: React.FC<Prop> = (props) => {
   return (
     <div>
-      <div>detail</div>
-      <div>参数: {props.match.params.id}</div>
+      <Header title={"商户详情"}/>
+      <Info id={props.match.params.id}/>
     </div>
   )
 }
