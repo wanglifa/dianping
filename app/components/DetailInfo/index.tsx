@@ -26,7 +26,7 @@ const DetailInfo: React.FC<Prop<DataProp>> = (props) => {
               <div className="info-content">
                 <h1>{data.title}</h1>
                 <div className="star-container">
-                  <Star star={data.star}/>
+                  <Star star={Number(data.star)}/>
                   <span className="price">￥{data.price}</span>
                 </div>
                 <p className="sub-title">{data.subTitle}</p>

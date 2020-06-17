@@ -5,7 +5,7 @@ export interface ContextProp {
   dispatch: Dispatch<Action>;
 }
 const initValue: ContextProp = {
-  state: {cityName: ''},
+  state: {cityName: '', username: ''},
   dispatch: () => {},
 }
 const Context = createContext<ContextProp>(initValue)

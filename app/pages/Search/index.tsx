@@ -2,10 +2,10 @@ import * as React from 'react'
 import SearchHeader from '../../components/SearchHeader';
 import {useEffect, useState} from 'react';
 import SearchList from './subpage/SearchList';
-interface Prop<T> {
+export interface MatchProp<T> {
   match: {[k: string]: T};
 }
-const Search: React.FC<Prop<{keyword: string, category: string}>> = (props) => {
+const Search: React.FC<MatchProp<{keyword: string, category: string}>> = (props) => {
   const [keyword, setKeyWord] = useState('')
   const [category, setCategory] = useState('')
   useEffect(() => {

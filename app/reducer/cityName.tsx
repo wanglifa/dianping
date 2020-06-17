@@ -1,6 +1,7 @@
-import { SET_CITYNAME } from '../action/home';
+import { SET_CITYNAME } from '../action';
 export interface State {
-  cityName: string;
+  cityName?: string;
+  username?: string;
 }
 export interface Action extends State{
   type: string;

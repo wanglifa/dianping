@@ -26,7 +26,7 @@ const List: React.FC = () => {
   }
   const getPageData = () => {
     const cityName = state.cityName
-    const result = getListData(cityName, page)
+    const result = getListData(cityName!, page)
     resultHandle(result)
   }
   const loadMoreData = () => {

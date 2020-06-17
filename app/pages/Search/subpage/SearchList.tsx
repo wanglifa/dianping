@@ -44,7 +44,7 @@ const SearchList: React.FC<Prop> = (props) => {
   }
   const getPageData = () => {
     const cityName = state.cityName
-    const result = getListData(cityName, initStateData.page, category, keyword)
+    const result = getListData(cityName!, initStateData.page, category, keyword)
     resultHandle(result)
   }
   const loadMoreData = () => {
