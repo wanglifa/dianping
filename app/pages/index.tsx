@@ -5,7 +5,7 @@ import { CITYNAME } from '../config/localStoreKey';
 import Context from '../context/'
 import {Reducer, reducer} from '../reducer/';
 import {store} from '../store/'
-import {SET_CITYNAME} from '../action';
+import {SET_CITYNAME} from '../constants/userInfo';
 
 interface Prop {
   children: ReactElement;

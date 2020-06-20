@@ -16,7 +16,7 @@ const RouterMap: React.FC = () => {
       <Route path={"/list"} component={List} exact/>
       <Route path={"/search/:category/:keyword?"} component={Search} exact/>
       <Route path={"/detail/:id"} component={Detail} exact/>
-      <Route path={"/login/:router?"} component={Login} exact/>
+      <Route path={"/login/:router?"} component={Login}/>
       <Route path={"/user"} component={UserList} exact/>
     </Router>
   )

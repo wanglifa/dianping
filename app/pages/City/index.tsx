@@ -3,7 +3,7 @@ import Context, {ContextProp} from '../../context/';
 import Header from '../../components/Header';
 import CurrentCity from '../../components/CurrentCity';
 import CityList from '../../components/CityList';
-import { SET_CITYNAME } from '../../action'
+import { SET_CITYNAME } from '../../constants/userInfo'
 import {useContext} from 'react';
 export interface HistoryProp {
   history?: History & { push: (str: string) => void};

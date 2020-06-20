@@ -2,11 +2,11 @@ import * as React from 'react'
 import {useEffect, useState} from 'react';
 import {useContext} from 'react';
 import Context, {ContextProp} from '../../context';
-import { createHashHistory } from 'history';
-import {SET_USERNAME} from '../../action';
+import {SET_USERNAME} from '../../constants/userInfo';
 import {MatchProp} from '../Search';
 import LoginComponent from '../../components/LoginComponent';
 import Header from '../../components/Header';
+import { createHashHistory } from 'history';
 const history = createHashHistory()
 interface Prop extends MatchProp<{router: string}>{
 
@@ -27,8 +27,9 @@ const Login: React.FC<Prop> = (props) => {
   const loginHandle = (username: string) => {
     dispatch({ type: SET_USERNAME, username })
     const {router} = props.match.params
+    console.log(router, 'router')
     if (router) {
-      history.push(router)
+      history.push(decodeURIComponent(router))
     } else {
       goUserPage()
     }

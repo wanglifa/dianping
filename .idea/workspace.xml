@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd543708-bc41-43b1-83fa-24b311cb424f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/LoginComponent/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/LoginComponent/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/Detail/subpage/Comment.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/Detail/subpage/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/Login/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/User/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/reducer/userName.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/BuyAndStore/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/BuyAndStore/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/constants/store.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/constants/userInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/Detail/subpage/buy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reducer/store.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/store/store.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/store/useInfo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/action/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/action/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/DetailInfo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/DetailInfo/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/HomeHeader/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/HomeHeader/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/context/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/context/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/action/index.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pages/City/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/City/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pages/Detail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/Detail/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/Home/subpage/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/Home/subpage/List.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/Search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/Search/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/Search/subpage/SearchList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/Search/subpage/SearchList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/Login/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/reducer/cityName.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/reducer/cityName.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reducer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/reducer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reducer/userName.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/reducer/userName.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router/routerMap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/routerMap.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/store/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/index.tsx" afterDir="false" />
     </list>
@@ -34,14 +32,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.27155963">
+    <splitter split-orientation="horizontal" split-proportion="0.2527754">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/CityList/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+                <state relative-caret-position="529">
+                  <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -49,7 +47,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/Header/index.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
+                <state relative-caret-position="207">
                   <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
@@ -61,7 +59,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/CurrentCity/index.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
+                <state relative-caret-position="92">
                   <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
@@ -83,7 +81,7 @@
             <entry file="file://$PROJECT_DIR$/app/pages/NotFound/index.tsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="184">
-                  <caret line="8" column="11" selection-end-line="8" selection-end-column="24" />
+                  <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -92,11 +90,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/router/routerMap.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="434">
-                  <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+                <state relative-caret-position="309">
+                  <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
                   </folding>
@@ -105,31 +103,43 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/pages/User/index.tsx">
+            <entry file="file://$PROJECT_DIR$/app/components/BuyAndStore/index.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="129">
-                  <caret line="2100" column="37" selection-start-line="2100" selection-start-column="19" selection-end-line="2100" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/pages/Search/index.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="11" column="33" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="33" />
+                <state relative-caret-position="437">
+                  <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/reducer/store.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="388">
+                  <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/components/BuyAndStore/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="467">
+                  <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/constants/store.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="69">
+                  <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -137,8 +147,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pages/Login/index.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+                <state relative-caret-position="392">
+                  <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#30#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/pages/Detail/subpage/buy.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="573">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
                   </folding>
@@ -147,54 +169,33 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/LoginComponent/index.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/LoginComponent/style.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1058">
-                  <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/pages/Home/index.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="149">
-                  <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#87#119#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/reducer/cityName.tsx">
+            <entry file="file://$PROJECT_DIR$/app/constants/userInfo.tsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="23">
-                  <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="1" />
+                  <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/reducer/userName.tsx">
+            <entry file="file://$PROJECT_DIR$/app/context/index.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="138">
-                  <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#0#46#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/reducer/index.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="181">
+                  <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#0#58#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -213,6 +214,7 @@
       <find>console</find>
       <find>const his</find>
       <find>params</find>
+      <find>SET_CITYNAME</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -224,16 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/components/HomeAd/style.scss" />
-        <option value="$PROJECT_DIR$/app/components/Category/style.scss" />
-        <option value="$PROJECT_DIR$/app/pages/Home/index.tsx" />
-        <option value="$PROJECT_DIR$/app/pages/Home/subpage/style.scss" />
-        <option value="$PROJECT_DIR$/app/components/HomeAd/index.tsx" />
-        <option value="$PROJECT_DIR$/app/components/List/index.tsx" />
-        <option value="$PROJECT_DIR$/app/components/List/Item/style.scss" />
-        <option value="$PROJECT_DIR$/app/components/LoadMore/style.scss" />
-        <option value="$PROJECT_DIR$/app/components/LoadMore/index.tsx" />
-        <option value="$PROJECT_DIR$/app/components/Header/index.tsx" />
         <option value="$PROJECT_DIR$/app/components/Header/style.scss" />
         <option value="$PROJECT_DIR$/app/components/CurrentCity/style.scss" />
         <option value="$PROJECT_DIR$/app/components/CurrentCity/index.tsx" />
@@ -242,7 +234,6 @@
         <option value="$PROJECT_DIR$/app/components/HomeHeader/style.scss" />
         <option value="$PROJECT_DIR$/app/static/css/common.scss" />
         <option value="$PROJECT_DIR$/app/components/Category/index.tsx" />
-        <option value="$PROJECT_DIR$/app/pages/City/index.tsx" />
         <option value="$PROJECT_DIR$/app/components/SearchInput/style.scss" />
         <option value="$PROJECT_DIR$/app/components/SearchInput/index.tsx" />
         <option value="$PROJECT_DIR$/app/components/SearchHeader/style.scss" />
@@ -258,30 +249,41 @@
         <option value="$PROJECT_DIR$/app/components/DetailInfo/style.scss" />
         <option value="$PROJECT_DIR$/app/components/Star/index.tsx" />
         <option value="$PROJECT_DIR$/app/components/Star/style.scss" />
-        <option value="$PROJECT_DIR$/app/pages/Detail/index.tsx" />
         <option value="$PROJECT_DIR$/app/pages/Detail/subpage/Comment.tsx" />
         <option value="$PROJECT_DIR$/app/components/HomeHeader/index.tsx" />
-        <option value="$PROJECT_DIR$/app/store/index.tsx" />
-        <option value="$PROJECT_DIR$/app/context/index.tsx" />
         <option value="$PROJECT_DIR$/app/components/DetailInfo/index.tsx" />
-        <option value="$PROJECT_DIR$/app/reducer/cityName.tsx" />
         <option value="$PROJECT_DIR$/app/pages/Home/subpage/List.tsx" />
         <option value="$PROJECT_DIR$/app/pages/Search/subpage/SearchList.tsx" />
         <option value="$PROJECT_DIR$/app/action/index.tsx" />
-        <option value="$PROJECT_DIR$/app/reducer/userName.tsx" />
         <option value="$PROJECT_DIR$/app/pages/Search/index.tsx" />
         <option value="$PROJECT_DIR$/app/components/LoginComponent/style.scss" />
         <option value="$PROJECT_DIR$/app/components/LoginComponent/index.tsx" />
-        <option value="$PROJECT_DIR$/app/pages/Login/index.tsx" />
         <option value="$PROJECT_DIR$/app/pages/User/index.tsx" />
+        <option value="$PROJECT_DIR$/app/pages/Detail/index.tsx" />
+        <option value="$PROJECT_DIR$/app/constants/userInfo.tsx" />
+        <option value="$PROJECT_DIR$/app/pages/index.tsx" />
+        <option value="$PROJECT_DIR$/app/pages/City/index.tsx" />
+        <option value="$PROJECT_DIR$/app/reducer/userName.tsx" />
+        <option value="$PROJECT_DIR$/app/context/index.tsx" />
+        <option value="$PROJECT_DIR$/app/store/useInfo.tsx" />
+        <option value="$PROJECT_DIR$/app/store/index.tsx" />
+        <option value="$PROJECT_DIR$/app/store/store.tsx" />
+        <option value="$PROJECT_DIR$/app/constants/store.tsx" />
+        <option value="$PROJECT_DIR$/app/reducer/cityName.tsx" />
+        <option value="$PROJECT_DIR$/app/reducer/index.tsx" />
         <option value="$PROJECT_DIR$/app/router/routerMap.tsx" />
+        <option value="$PROJECT_DIR$/app/pages/Login/index.tsx" />
+        <option value="$PROJECT_DIR$/app/reducer/store.tsx" />
+        <option value="$PROJECT_DIR$/app/components/BuyAndStore/index.tsx" />
+        <option value="$PROJECT_DIR$/app/components/BuyAndStore/style.scss" />
+        <option value="$PROJECT_DIR$/app/pages/Detail/subpage/buy.tsx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="209" />
-    <option name="y" value="221" />
-    <option name="width" value="1260" />
+    <option name="x" value="69" />
+    <option name="y" value="218" />
+    <option name="width" value="1394" />
     <option name="height" value="771" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -290,6 +292,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,13 +309,14 @@
               <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
               <item name="dianping2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
               <item name="dianping2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="BuyAndStore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
@@ -325,7 +329,35 @@
               <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
               <item name="dianping2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianping2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianping2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Detail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianping2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Detail" type="462c0819:PsiDirectoryNode" />
+              <item name="subpage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianping2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dianping2" type="b2602c69:ProjectViewProjectNode" />
@@ -380,7 +412,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,7 +465,9 @@
       <workItem from="1591755861508" duration="12019000" />
       <workItem from="1591840820834" duration="31252000" />
       <workItem from="1592015911991" duration="13558000" />
-      <workItem from="1592375201535" duration="5441000" />
+      <workItem from="1592375201535" duration="5585000" />
+      <workItem from="1592446645075" duration="3802000" />
+      <workItem from="1592536662935" duration="16923000" />
     </task>
     <task id="LOCAL-00001" summary="webpack配置">
       <created>1590658846370</created>
@@ -499,14 +532,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592295524746</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="登录">
+      <created>1592381039929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592381039929</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101591000" />
+    <option name="totallyTimeSpent" value="122460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="287" y="396" width="1260" height="771" extended-state="0" />
+    <frame x="110" y="329" width="1394" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -521,12 +561,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15987934" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.095022626" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.24712643" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.1331361" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,65 +582,10 @@
     <MESSAGE value="搜索组件" />
     <MESSAGE value="搜索页面" />
     <MESSAGE value="详情页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="详情页面" />
+    <MESSAGE value="登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/components/Header/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="19437" column="29" lean-forward="true" selection-start-line="19437" selection-start-column="29" selection-end-line="19437" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/HomeHeader/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/Category/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="58" column="93" selection-start-line="58" selection-start-column="93" selection-end-line="58" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/SearchInput/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/Search/subpage/style.scss" />
-    <entry file="file://$PROJECT_DIR$/app/components/SearchInput/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/SearchHeader/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -709,23 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/Detail/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#120#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/context/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/DetailInfo/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -766,67 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/Header/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/CurrentCity/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/CurrentCity/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/action/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/reducer/cityName.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/reducer/index.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/Home/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#87#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/Home/subpage/Ad.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-174">
@@ -840,26 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/reducer/userName.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/Search/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -896,17 +783,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/CityList/style.scss">
+    <entry file="file://$PROJECT_DIR$/app/pages/User/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="184">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/app/pages/Search/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="2100" column="37" selection-start-line="2100" selection-start-column="19" selection-end-line="2100" selection-end-column="37" />
+        <state relative-caret-position="184">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/CityList/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Header/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/CurrentCity/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/CurrentCity/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/LoginComponent/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,10 +851,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/LoginComponent/index.tsx">
+    <entry file="file://$PROJECT_DIR$/app/pages/Home/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#87#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/Detail/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#120#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/constants/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="30" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="909" column="13" selection-start-line="909" selection-start-column="13" selection-end-line="909" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/reducer/userName.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/useInfo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/store.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/reducer/cityName.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/reducer/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/constants/store.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/context/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/constants/userInfo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/routerMap.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -929,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/Login/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="392">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -940,21 +980,41 @@
     <entry file="file://$PROJECT_DIR$/app/pages/NotFound/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="11" selection-end-line="8" selection-end-column="24" />
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/User/index.tsx">
+    <entry file="file://$PROJECT_DIR$/app/reducer/store.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="388">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/router/routerMap.tsx">
+    <entry file="file://$PROJECT_DIR$/app/components/BuyAndStore/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="437">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/BuyAndStore/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/Detail/subpage/buy.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
