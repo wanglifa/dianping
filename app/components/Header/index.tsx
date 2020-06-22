@@ -1,11 +1,18 @@
 import * as React from 'react'
 import './style.scss'
+import { createHashHistory } from 'history';
+const history = createHashHistory()
 interface Prop {
   title: string;
+  backRouter?: string;
 }
 const Header: React.FC<Prop> = (props) => {
   const onClickReturn = () => {
-    window.history.back()
+    if (props.backRouter) {
+      history.push(props.backRouter)
+    } else {
+      window.history.back()
+    }
   }
   return (
     <div id={"common-header"}>
