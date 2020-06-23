@@ -17,7 +17,7 @@ function obj2params(obj: {[k: string]: any}): string {
 }
 
 // 发送 post 请求
-export function post(url: string, paramsObj: {[k: string]: string}): Promise<Response> {
+export function post(url: string, paramsObj: {[k: string]: string | number}): Promise<Response> {
     var result = fetch(url, {
         method: 'POST',
         credentials: 'include',
