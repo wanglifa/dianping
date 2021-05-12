@@ -38,7 +38,7 @@
     "react-router-dom": "^5.2.0",
     "react-swipe": "^6.0.4",
     "swipe-js-iso": "^2.1.5",
-    "swiper": "^5.4.1",
+    "swiper": "^6.5.1",
     "webpack-dev-server": "^3.11.0",
     "whatwg-fetch": "^3.0.0"
   }
